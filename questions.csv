@@ -1,0 +1,9 @@
+﻿question,reponse_1,reponse_2,reponse_3,reponse_4,bonne_reponse
+"Quelle instruction permet d’affecter la liste [0,1,4,9,16] à la variable tableau ?",tableau = [ i**2 for i in range(4) ],tableau = [ i**2 for i in range(5) ],tableau = [ i**2 for i in range(16) ],tableau = [ i**2 for i in range(17) ],0
+"On définit L = [4,25,10,9,7,13]. Quelle est la valeur de L[2] ?",4,25,10,9,3
+"On définit L = [4,25,10,9,7,13]. Quelle est la valeur de L[2] ?",4,25,10,9,3
+"Soit la liste L = [15,17,12,23]. Quelle est la valeur de L après cette instruction L[2] = 25 ?","[15,25,12,23]","[15,17,25,12,23]","[15,17,25,23]","[15,17,12,25,23]",3
+"Que vaut l’expression [ 2*k for k in range(5) ] ?","[0,2,4,6,8]","[2,4,6,8,10]","[1,2,4,8,16]","[2,4,8,16,32]",1
+"On définit : L = [10,9,8,7,6,5,4,3,2,1]. Quelle est la valeur de L[L[3]] ?","3","4","7","8",1
+"On a défini : T = [[1,2,3], [4,5,6], [7,8,9]]. Quelle expression parmi les suivantes a pour valeur le nombre 8 ?","T[1,2]",T[1][2],"T[2,1]",T[2][1],4
+"Quelle est l’expression qui a pour valeur la liste [1,4,9,16,25,36] ?","{ n*n for n in range(1,7) }",{ n*n for n in range(6) },"[ n*n for n in range(1,7) ]",[ n*n for n in range(6) ],3
